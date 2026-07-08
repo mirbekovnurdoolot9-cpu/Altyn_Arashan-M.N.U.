@@ -1,0 +1,1 @@
+# Altyn_Arashan-M.N.U.
