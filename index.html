@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Altyn-Arashan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">Altyn-Arashan</div>
+            
+            <div class="lang-switcher">
+                <button data-btn-lang="kg">Кыргызча</button>
+                <button data-btn-lang="ru" class="active">Русский</button>
+                <button data-btn-lang="en">English</button>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#about" data-lang="nav-about">О месте</a></li>
+                    <li><a href="#gallery" data-lang="nav-gallery">Галерея</a></li>
+                    <li><a href="#route-section" data-lang="nav-route">Маршрут & 2GIS</a></li>
+                    <li><a href="#contacts" data-lang="nav-contacts">Контакты</a></li>
+                    <li><a href="#reviews" data-lang="nav-reviews">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-lang="hero-title">Ущелье Алтын-Арашан</h1>
+            <p data-lang="hero-desc">Горячие источники, величественные горы и первозданная природа Иссык-Куля</p>
+            <a href="#route-section" class="btn" data-lang="hero-btn">Смотреть маршрут</a>
+        </div>
+    </section>
+
+    <section id="about" class="section reveal">
+        <div class="container">
+            <h2 data-lang="about-title">О прекрасном Алтын-Арашане</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p data-lang="about-p1"><strong>Алтын-Арашан</strong> (в переводе «Золотой источник») — это одно из самых знаменитых и живописных ущелий в Кыргызстане, расположенное недалеко от города Каракол.</p>
+                    <p data-lang="about-p2">Оно знаменито своими целебными горячими радоновыми и сероводородными источниками, которые бьют прямо под открытым небом среди тянь-шаньских елей на высоте 2600 метров. Здесь можно пожить в настоящих кыргызских юртах, попить кумыс и ощутить кочевой быт.</p>
+                    <div class="adventure-badge">
+                        <i class="fa-solid fa-truck-monster"></i>
+                        <p data-lang="about-road"><strong>Дорога сюда — это отдельное приключение!</strong> Обычная машина здесь не проедет. Вас ждет экстремальный и незабываемый подъем на советских военных внедорожниках УАЗ или ГАЗ-66 по каменистым ухабам, огромным валунам и горным рекам. Этот адреналин вы запомните на всю жизнь!</p>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <div class="feature"><i class="fa-solid fa-mountain"></i> <span data-lang="f-height">Высота: ~2600 м</span></div>
+                    <div class="feature"><i class="fa-solid fa-hot-tub-person"></i> <span data-lang="f-springs">Термальные источники</span></div>
+                    <div class="feature"><i class="fa-solid fa-campground"></i> <span data-lang="f-yurts">Ночевка в юртах</span></div>
+                    <div class="feature"><i class="fa-solid fa-route"></i> <span data-lang="f-track">Экстремальный оффроуд</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section bg-light reveal">
+        <div class="container">
+            <h2 data-lang="gallery-title">Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://www.baibol.kg/img/attraction_gallery/152413956389135.jpg" alt="Горы"></div>
+                <div class="gallery-item"><img src="https://media.istockphoto.com/id/2227770130/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BA%D0%BE%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0-%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D1%81%D0%BA%D0%B8%D0%B5-%D1%8E%D1%80%D1%82%D1%8B-%D1%81-%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C%D0%BC%D0%B8-%D0%B2-%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%BD%D0%BE%D0%BC-%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=GB2-GxHylCEhwpoWkNeHdWDRebf7ouCGuBK74ZEHRug=" alt="Юрты"></div>
+                <div class="gallery-item"><img src="https://triptokyrgyzstan.com/sites/default/files/media/image/c_charlie_hall_0.jpg" alt="Река"></div>
+                <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sCYyj6cBwzz9TqYzYJYsDqtKDluXC6LGk-JE2HsmsGntj3oh5-nHGW_z&s=10" alt="Источники"></div>
+                <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WJSRSPNV3cJz2zpbSrzTiOGqo4CtJiDd3k5wdr9k71ZvX1-HOZo6LCs&s=10" alt="Лошади"></div>
+                <div class="gallery-item"><img src="https://kg24.news/wp-content/uploads/2024/02/uschele-altyn-arashan-gostinitsy.jpg" alt="Небо"></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <section id="route-section" class="section reveal">
+        <div class="container">
+            <h2 data-lang="route-title">Интерактивный маршрут</h2>
+            <p class="text-center subtitle" data-lang="route-desc">Мы подготовили для вас удобную карту. Вы можете посмотреть точное расположение Алтын-Арашана прямо через популярный в Кыргызстане навигатор 2GIS.</p>
+            <div class="map-box">
+                <div class="twogis-mock">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h3 data-lang="twogis-title">Карта Алтын-Арашан в 2GIS</h3>
+                    <p data-lang="twogis-p">Нажмите на кнопку ниже, чтобы открыть карту, проложить автомобильный или пеший маршрут от Каракола.</p>
+                    <a href="https://go.2gis.com/MjEoI" target="_blank" class="btn btn-2gis">
+                        <i class="fa-solid fa-location-arrow"></i> <span data-lang="twogis-btn">Открыть в 2GIS</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="section social-section reveal">
+        <div class="container text-center">
+            <h2 data-lang="social-title">Свяжитесь с нами</h2>
+            <div class="social-flex-container">
+                <div class="social-box card-insta">
+                    <i class="fa-brands fa-instagram social-icon"></i>
+                    <h3>Instagram</h3>
+                    <p data-lang="insta-box-text">Узнай, как добраться, где остановиться и посмотри актуальные сторис.</p>
+                    <a href="https://www.instagram.com/altynarashankg/" target="_blank" class="btn btn-insta" data-lang="insta-btn">Открыть Instagram</a>
+                </div>
+                <div class="social-box card-whatsapp">
+                    <i class="fa-brands fa-whatsapp social-icon"></i>
+                    <h3>WhatsApp</h3>
+                    <p data-lang="wa-box-text">Напишите нам прямо сейчас, чтобы забронировать внедорожник или юрту!</p>
+                    <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F996508014782%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnzUD34s2jwquo81UwFv9R7LLh-EnRzmMbwPBTBj7YsC72F9Ge15D7csoBbYQ_aem_0xYtVr_BnukbLvr70CQrUw&e=AUAWm2TMHyu21d8Dx7L9WeooB_iSrF5AZA7D_PPQqpY1e3Hb1lWMN9HiaTRxpU6NaSGha7yDblbBnccwmCYqXJH6DL0AFWZuq4HWQ296LbfmfpkDTb0UjjNnozCFJyaEj7xMWsI" target="_blank" class="btn btn-wa" data-lang="wa-btn">Написать в WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section bg-light reveal">
+        <div class="container">
+            <h2 data-lang="reviews-title">Отзывы наших гостей</h2>
+            <p class="text-center subtitle" data-lang="reviews-swipe-help">Листайте пальцем влево или вправо, чтобы прочесть все истории</p>
+            
+            <div class="swipe-container" id="swipeContainer">
+                <div class="swipe-track" id="swipeTrack">
+                    <div class="review-card">
+                        <p class="review-text" data-lang="r1-text">"Это невероятное место! Дорога туда — настоящее приключение на внедорожниках, а купание в горячих источниках после долгого похода — это просто рай."</p>
+                        <h4 data-lang="r1-author">— Александр, Бишкек</h4>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text" data-lang="r2-text">"Вид на пик Палатка открывается потрясающий. Останавливались в гостевом доме, люди очень гостеприимные. Обязательно вернусь еще раз!"</p>
+                        <h4 data-lang="r2-author">— Эмили, Франция</h4>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text" data-lang="r3-text">"Чистейший воздух, запах хвои и дикая природа. Instagram маршрут помог заранее подготовиться к трекингу. Всем советую!"</p>
+                        <h4 data-lang="r3-author">— Нурбек, Ош</h4>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text" data-lang="r4-text">"Жили в юртах у местной семьи. Вечером пили горячий чай и смотрели на звезды — небо там космическое! Дорога жесткая, но она того стоит."</p>
+                        <h4 data-lang="r4-author">— Данияр, Каракол</h4>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text" data-lang="r5-text">"Абсолютный восторг от природы Кыргызстана. Лошади, бегущие по долине, и термальные ванны прямо у реки. Слайды в соцсетях не врут!"</p>
+                        <h4 data-lang="r5-author">— Лиза, Германия</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p data-lang="footer-text">&copy; 2026 Алтын-Арашан Туризм. Добро пожаловать в Кыргызстан!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
